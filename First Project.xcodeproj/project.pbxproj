@@ -10,7 +10,9 @@
 		E5A0F06F275B7D090093C49D /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F06E275B7D090093C49D /* WordView.swift */; };
 		E5A0F071275BA4E70093C49D /* MusicainNotebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F070275BA4E70093C49D /* MusicainNotebookViewController.swift */; };
 		E5A0F074275C24A70093C49D /* VokalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F073275C24A70093C49D /* VokalViewController.swift */; };
-		E5A0F077275E5B510093C49D /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F076275E5B510093C49D /* Timer.swift */; };
+		E5C19DFA275FAB930070BB26 /* Read me (Vokal).swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C19DF9275FAB930070BB26 /* Read me (Vokal).swift */; };
+		E5C19DFC275FACF80070BB26 /* Red me (Notebook).swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C19DFB275FACF80070BB26 /* Red me (Notebook).swift */; };
+		E5C19DFE275FAE3C0070BB26 /*  Read me (Card game).swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C19DFD275FAE3C0070BB26 /*  Read me (Card game).swift */; };
 		E5D63BC4275B4A57007C5027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63BC3275B4A57007C5027 /* AppDelegate.swift */; };
 		E5D63BC6275B4A57007C5027 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63BC5275B4A57007C5027 /* SceneDelegate.swift */; };
 		E5D63BC8275B4A57007C5027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63BC7275B4A57007C5027 /* ViewController.swift */; };
@@ -43,7 +45,9 @@
 		E5A0F06E275B7D090093C49D /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		E5A0F070275BA4E70093C49D /* MusicainNotebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicainNotebookViewController.swift; sourceTree = "<group>"; };
 		E5A0F073275C24A70093C49D /* VokalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VokalViewController.swift; sourceTree = "<group>"; };
-		E5A0F076275E5B510093C49D /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		E5C19DF9275FAB930070BB26 /* Read me (Vokal).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Read me (Vokal).swift"; sourceTree = "<group>"; };
+		E5C19DFB275FACF80070BB26 /* Red me (Notebook).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Red me (Notebook).swift"; sourceTree = "<group>"; };
+		E5C19DFD275FAE3C0070BB26 /*  Read me (Card game).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Read me (Card game).swift"; sourceTree = "<group>"; };
 		E5D63BC0275B4A57007C5027 /* First Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D63BC3275B4A57007C5027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5D63BC5275B4A57007C5027 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 		E5A0F06A275B7C450093C49D /* Random Word */ = {
 			isa = PBXGroup;
 			children = (
+				E5C19DFD275FAE3C0070BB26 /*  Read me (Card game).swift */,
 				E5A0F06E275B7D090093C49D /* WordView.swift */,
 			);
 			path = "Random Word";
@@ -97,6 +102,7 @@
 		E5A0F06B275B7C8F0093C49D /* Musician's Notebook */ = {
 			isa = PBXGroup;
 			children = (
+				E5C19DFB275FACF80070BB26 /* Red me (Notebook).swift */,
 				E5A0F070275BA4E70093C49D /* MusicainNotebookViewController.swift */,
 			);
 			path = "Musician's Notebook";
@@ -105,17 +111,10 @@
 		E5A0F072275C24800093C49D /* Vokal */ = {
 			isa = PBXGroup;
 			children = (
+				E5C19DF9275FAB930070BB26 /* Read me (Vokal).swift */,
 				E5A0F073275C24A70093C49D /* VokalViewController.swift */,
 			);
 			path = Vokal;
-			sourceTree = "<group>";
-		};
-		E5A0F075275E5AFC0093C49D /* General functions */ = {
-			isa = PBXGroup;
-			children = (
-				E5A0F076275E5B510093C49D /* Timer.swift */,
-			);
-			path = "General functions";
 			sourceTree = "<group>";
 		};
 		E5D63BB7275B4A57007C5027 = {
@@ -141,7 +140,6 @@
 		E5D63BC2275B4A57007C5027 /* First Project */ = {
 			isa = PBXGroup;
 			children = (
-				E5A0F075275E5AFC0093C49D /* General functions */,
 				E5A0F072275C24800093C49D /* Vokal */,
 				E5A0F06B275B7C8F0093C49D /* Musician's Notebook */,
 				E5A0F06A275B7C450093C49D /* Random Word */,
@@ -306,13 +304,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5D63BCE275B4A57007C5027 /* First_Project.xcdatamodeld in Sources */,
+				E5C19DFC275FACF80070BB26 /* Red me (Notebook).swift in Sources */,
 				E5A0F06F275B7D090093C49D /* WordView.swift in Sources */,
 				E5D63BC8275B4A57007C5027 /* ViewController.swift in Sources */,
+				E5C19DFE275FAE3C0070BB26 /*  Read me (Card game).swift in Sources */,
 				E5D63BC4275B4A57007C5027 /* AppDelegate.swift in Sources */,
 				E5A0F074275C24A70093C49D /* VokalViewController.swift in Sources */,
+				E5C19DFA275FAB930070BB26 /* Read me (Vokal).swift in Sources */,
 				E5A0F071275BA4E70093C49D /* MusicainNotebookViewController.swift in Sources */,
 				E5D63BC6275B4A57007C5027 /* SceneDelegate.swift in Sources */,
-				E5A0F077275E5B510093C49D /* Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
