@@ -66,8 +66,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Новое слово" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpB-S1-F0x">
-                                <rect key="frame" x="40" y="403" width="334" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpB-S1-F0x">
+                                <rect key="frame" x="40" y="421" width="334" height="0.0"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -161,6 +161,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="xlJ-f0-1bK"/>
                     <connections>
+                        <outlet property="ComandLable" destination="dbO-Mw-dJB" id="GYQ-en-Twg"/>
                         <outlet property="TimerLable" destination="E6I-pY-VYr" id="fxd-eO-nBo"/>
                         <outlet property="WhatGame" destination="4hy-tJ-wdU" id="qfE-sc-7MV"/>
                         <outlet property="WordLeable" destination="WpB-S1-F0x" id="qqQ-n6-fmI"/>

@@ -8,6 +8,8 @@
 import UIKit
 
 class WordView: UIViewController {
+    var comandFlag = 1
+    @IBOutlet weak var ComandLable: UILabel!
     @IBOutlet weak var TimerLable: UILabel!
     @IBOutlet weak var WhatGame: UISegmentedControl!
     
@@ -271,6 +273,11 @@ class WordView: UIViewController {
         
         // создаем таймер
         if counter == 0 {
+            
+            trueWordLable.text = String(countTrue)
+            falseWordLable.text = String(countFalse)
+
+            
             timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
             
         }
@@ -284,6 +291,17 @@ class WordView: UIViewController {
 
     }
     @IBAction func WordFalseButton(_ sender: Any) {
+        switch WhatGame.selectedSegmentIndex {
+        case 0 :
+            WordLeable.text = BDWord.randomElement()
+        case 1 :
+            WordLeable.text = Emotions.randomElement()
+        case 2 :
+            WordLeable.text = BibleCharacters.randomElement()
+        default:
+            return
+        }
+        
         if counter > 0{
         countFalse += 1
         falseWordLable.text = String(countFalse)
@@ -297,8 +315,21 @@ class WordView: UIViewController {
          TimerLable.text = "\(counter)"
         } else {
             TimerLable.text = "STOP"
+            WordLeable.text = ""
             counter = 0
+            countTrue = 0
+
+            countFalse = 0
+            
             timer.invalidate()
+            if comandFlag == 1{
+                ComandLable.text = "2 Команда"
+                comandFlag = 2
+            } else {
+                ComandLable.text = "1 Команда"
+                comandFlag = 1
+               
+            }
 
         }
             
