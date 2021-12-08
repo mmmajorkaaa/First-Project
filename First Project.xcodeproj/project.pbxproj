@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E55E748E2761298800ADF80A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55E748D2761298800ADF80A /* File.swift */; };
 		E5A0F06F275B7D090093C49D /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F06E275B7D090093C49D /* WordView.swift */; };
 		E5A0F071275BA4E70093C49D /* MusicainNotebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F070275BA4E70093C49D /* MusicainNotebookViewController.swift */; };
 		E5A0F074275C24A70093C49D /* VokalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F073275C24A70093C49D /* VokalViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E55E748D2761298800ADF80A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		E5A0F06E275B7D090093C49D /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
 		E5A0F070275BA4E70093C49D /* MusicainNotebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicainNotebookViewController.swift; sourceTree = "<group>"; };
 		E5A0F073275C24A70093C49D /* VokalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VokalViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E55E748A2761295300ADF80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E55E748D2761298800ADF80A /* File.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E55E748B2761296500ADF80A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E55E748C2761297000ADF80A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		E5A0F06A275B7C450093C49D /* Random Word */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +126,9 @@
 		E5A0F06B275B7C8F0093C49D /* Musician's Notebook */ = {
 			isa = PBXGroup;
 			children = (
+				E55E748C2761297000ADF80A /* Controller */,
+				E55E748B2761296500ADF80A /* View */,
+				E55E748A2761295300ADF80A /* Model */,
 				E5C19DFB275FACF80070BB26 /* Red me (Notebook).swift */,
 				E5A0F070275BA4E70093C49D /* MusicainNotebookViewController.swift */,
 			);
@@ -312,6 +339,7 @@
 				E5A0F074275C24A70093C49D /* VokalViewController.swift in Sources */,
 				E5C19DFA275FAB930070BB26 /* Read me (Vokal).swift in Sources */,
 				E5A0F071275BA4E70093C49D /* MusicainNotebookViewController.swift in Sources */,
+				E55E748E2761298800ADF80A /* File.swift in Sources */,
 				E5D63BC6275B4A57007C5027 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

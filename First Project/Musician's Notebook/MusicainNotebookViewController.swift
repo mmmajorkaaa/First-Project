@@ -93,4 +93,29 @@ class MusicainNotebookViewController: UIViewController {
     
 
 }
+// Паттерн для замены слова
+//let hord = testSong
+
+////func sortHords ()
+//vat index = 0
+//for i in 0 ..< hord.count {
+//
+//    startString = startString
+//        .replacingOccurrences(of: hord[1],  with: "!!!")
+//}
+//
+//
+//
+////print(startString)
+//
+//
+////var startString = "3, 2, 1, 2, 1, go!"
+////startString = startString
+////    .replacingOccurrences(of: "1", with: "one")
+////    .replacingOccurrences(of: "2", with: "two")
+////    .replacingOccurrences(of: "3", with: "three")
+//////startString = "three, two, one, go!"
+////
+////print(startString)
+
 
