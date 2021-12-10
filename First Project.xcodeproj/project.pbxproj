@@ -23,6 +23,8 @@
 		E5D63BD3275B4A5A007C5027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D63BD1275B4A5A007C5027 /* LaunchScreen.storyboard */; };
 		E5D63BDE275B4A5A007C5027 /* First_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63BDD275B4A5A007C5027 /* First_ProjectTests.swift */; };
 		E5D63BE9275B4A5A007C5027 /* First_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D63BE8275B4A5A007C5027 /* First_ProjectUITests.swift */; };
+		E5F0141D276385420091298C /* Patterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0141C276385420091298C /* Patterns.swift */; };
+		E5F0141F2763863F0091298C /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0141E2763863F0091298C /* Adapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		E5D63BE4275B4A5A007C5027 /* First ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D63BE8275B4A5A007C5027 /* First_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_ProjectUITests.swift; sourceTree = "<group>"; };
 		E5D63BEA275B4A5A007C5027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F0141C276385420091298C /* Patterns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patterns.swift; sourceTree = "<group>"; };
+		E5F0141E2763863F0091298C /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 		E5D63BC2275B4A57007C5027 /* First Project */ = {
 			isa = PBXGroup;
 			children = (
+				E5F01416276384060091298C /* Patterns */,
 				E5A0F072275C24800093C49D /* Vokal */,
 				E5A0F06B275B7C8F0093C49D /* Musician's Notebook */,
 				E5A0F06A275B7C450093C49D /* Random Word */,
@@ -198,6 +203,23 @@
 				E5D63BEA275B4A5A007C5027 /* Info.plist */,
 			);
 			path = "First ProjectUITests";
+			sourceTree = "<group>";
+		};
+		E5F01416276384060091298C /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0141C276385420091298C /* Patterns.swift */,
+				E5F01417276384A00091298C /* Структурные паттерны */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		E5F01417276384A00091298C /* Структурные паттерны */ = {
+			isa = PBXGroup;
+			children = (
+				E5F0141E2763863F0091298C /* Adapter.swift */,
+			);
+			path = "Структурные паттерны";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,9 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F0141F2763863F0091298C /* Adapter.swift in Sources */,
 				E5D63BCE275B4A57007C5027 /* First_Project.xcdatamodeld in Sources */,
 				E5C19DFC275FACF80070BB26 /* Red me (Notebook).swift in Sources */,
 				E5A0F06F275B7D090093C49D /* WordView.swift in Sources */,
+				E5F0141D276385420091298C /* Patterns.swift in Sources */,
 				E5D63BC8275B4A57007C5027 /* ViewController.swift in Sources */,
 				E5C19DFE275FAE3C0070BB26 /*  Read me (Card game).swift in Sources */,
 				E5D63BC4275B4A57007C5027 /* AppDelegate.swift in Sources */,

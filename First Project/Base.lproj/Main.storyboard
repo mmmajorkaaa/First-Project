@@ -8,6 +8,103 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Patterns-->
+        <scene sceneID="GaG-7P-X6W">
+            <objects>
+                <viewController id="wCa-Tq-B2V" customClass="Patterns" customModule="First_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WtY-Y9-0W4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Паттерны поведения" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7e-jG-Uef">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="21"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Пораждающие паттерны" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lht-lt-cDt">
+                                <rect key="frame" x="0.0" y="221" width="414" height="21"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Структурные паттерны" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnj-Rj-yCO">
+                                <rect key="frame" x="0.0" y="442" width="414" height="21"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sC-sM-odb">
+                                <rect key="frame" x="0.0" y="463" width="163" height="30"/>
+                                <state key="normal" title="Адаптер (композиция)"/>
+                                <connections>
+                                    <action selector="Adapter:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="XvK-Cb-h9h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcf-p5-pAu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="z7e-jG-Uef" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="4P6-36-dg6"/>
+                            <constraint firstItem="lht-lt-cDt" firstAttribute="leading" secondItem="vnj-Rj-yCO" secondAttribute="leading" id="8I4-yW-EPK"/>
+                            <constraint firstItem="7sC-sM-odb" firstAttribute="top" secondItem="vnj-Rj-yCO" secondAttribute="bottom" id="CEE-kH-8rB"/>
+                            <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="z7e-jG-Uef" secondAttribute="trailing" id="CQG-EJ-6Rg"/>
+                            <constraint firstItem="lht-lt-cDt" firstAttribute="top" secondItem="z7e-jG-Uef" secondAttribute="bottom" constant="200" id="WGT-mv-eiM"/>
+                            <constraint firstItem="lht-lt-cDt" firstAttribute="trailing" secondItem="vnj-Rj-yCO" secondAttribute="trailing" id="XDk-Mv-m5d"/>
+                            <constraint firstItem="7sC-sM-odb" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="ZfI-60-eC9"/>
+                            <constraint firstItem="lht-lt-cDt" firstAttribute="leading" secondItem="z7e-jG-Uef" secondAttribute="leading" id="Zwa-2l-TSM"/>
+                            <constraint firstItem="z7e-jG-Uef" firstAttribute="top" secondItem="Bcf-p5-pAu" secondAttribute="top" id="aY4-RL-8dV"/>
+                            <constraint firstItem="lht-lt-cDt" firstAttribute="trailing" secondItem="z7e-jG-Uef" secondAttribute="trailing" id="nJV-UW-1ts"/>
+                            <constraint firstItem="vnj-Rj-yCO" firstAttribute="top" secondItem="lht-lt-cDt" secondAttribute="bottom" constant="200" id="vH2-JR-QGr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="b2g-XP-8uf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CH7-bw-Ai3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-437" y="-792"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fpj-Vb-Gh3">
+            <objects>
+                <viewController id="ols-vt-wlS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="taR-i4-WWt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2hC-NA-aKU">
+                                <rect key="frame" x="117" y="433" width="180" height="30"/>
+                                <state key="normal" title="Порождающие паттерны"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JvG-N8-1Em">
+                                <rect key="frame" x="131.5" y="393" width="151" height="30"/>
+                                <state key="normal" title="Паттерны поведения"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLL-Xg-vsT">
+                                <rect key="frame" x="123.5" y="473" width="167" height="30"/>
+                                <state key="normal" title="Структурные паттерны"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="geV-Ta-m0k"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JvG-N8-1Em" firstAttribute="centerX" secondItem="taR-i4-WWt" secondAttribute="centerX" id="12y-rM-Fap"/>
+                            <constraint firstItem="XLL-Xg-vsT" firstAttribute="centerX" secondItem="taR-i4-WWt" secondAttribute="centerX" id="IWo-GY-55M"/>
+                            <constraint firstItem="2hC-NA-aKU" firstAttribute="centerY" secondItem="taR-i4-WWt" secondAttribute="centerY" id="Rlm-op-6Tv"/>
+                            <constraint firstItem="XLL-Xg-vsT" firstAttribute="top" secondItem="2hC-NA-aKU" secondAttribute="bottom" constant="10" id="WQ2-jR-PBt"/>
+                            <constraint firstItem="2hC-NA-aKU" firstAttribute="top" secondItem="JvG-N8-1Em" secondAttribute="bottom" constant="10" id="Y3B-Rs-8yQ"/>
+                            <constraint firstItem="2hC-NA-aKU" firstAttribute="centerX" secondItem="taR-i4-WWt" secondAttribute="centerX" id="pQD-wt-loW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xv1-bv-cUA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WE7-G4-RY2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="-834"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -37,15 +134,25 @@
                                     <segue destination="B4f-aR-i3m" kind="show" id="4hp-Ae-nvz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4p-Xu-byn">
+                                <rect key="frame" x="171.5" y="353" width="71" height="30"/>
+                                <state key="normal" title="Паттерны"/>
+                                <connections>
+                                    <segue destination="wCa-Tq-B2V" kind="show" id="4NV-HV-IJq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="V1w-mR-UMv" firstAttribute="top" secondItem="j4p-Xu-byn" secondAttribute="bottom" constant="10" id="5XU-ID-FGC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jAP-0F-3LM" secondAttribute="trailing" id="5mk-EX-7re"/>
                             <constraint firstItem="jAP-0F-3LM" firstAttribute="top" secondItem="V1w-mR-UMv" secondAttribute="bottom" constant="10" id="BAr-Et-jiO"/>
                             <constraint firstItem="V1w-mR-UMv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EJs-TA-obl"/>
                             <constraint firstItem="jAP-0F-3LM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IJ5-PC-pMF"/>
+                            <constraint firstItem="V1w-mR-UMv" firstAttribute="top" secondItem="j4p-Xu-byn" secondAttribute="bottom" constant="10" id="LTo-pY-YtM"/>
                             <constraint firstItem="aOT-QO-fdB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Pbz-2H-8Y8"/>
+                            <constraint firstItem="j4p-Xu-byn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aEn-sD-a76"/>
                             <constraint firstItem="aOT-QO-fdB" firstAttribute="top" secondItem="jAP-0F-3LM" secondAttribute="bottom" constant="10" id="ah4-07-LCd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aOT-QO-fdB" secondAttribute="trailing" id="faa-eq-HET"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V1w-mR-UMv" secondAttribute="trailing" id="inz-1b-2jU"/>
@@ -273,7 +380,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sfa-rG-qPZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-81.159420289855078" y="-582.58928571428567"/>
+            <point key="canvasLocation" x="1617" y="-929"/>
         </scene>
         <!--Title-->
         <scene sceneID="LN2-2g-8n1">
@@ -365,7 +472,7 @@ ____________________________________
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xk2-Tn-yvm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="773.91304347826087" y="-368.30357142857139"/>
+            <point key="canvasLocation" x="1671" y="-48"/>
         </scene>
     </scenes>
     <resources>
