@@ -38,10 +38,59 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sC-sM-odb">
-                                <rect key="frame" x="0.0" y="463" width="163" height="30"/>
-                                <state key="normal" title="Адаптер (композиция)"/>
+                                <rect key="frame" x="0.0" y="463" width="61" height="30"/>
+                                <state key="normal" title="Адаптер"/>
                                 <connections>
                                     <action selector="Adapter:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="XvK-Cb-h9h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWM-6W-xoC">
+                                <rect key="frame" x="0.0" y="493" width="78" height="30"/>
+                                <state key="normal" title="Декоратор"/>
+                                <connections>
+                                    <action selector="Decorator:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="aHd-jr-Yt9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftd-35-TeC">
+                                <rect key="frame" x="0.0" y="523" width="93" height="30"/>
+                                <state key="normal" title="Заместитель"/>
+                                <connections>
+                                    <action selector="Zamestitel:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="7lG-3p-sFf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRe-ka-cO1">
+                                <rect key="frame" x="0.0" y="553" width="101" height="30"/>
+                                <state key="normal" title="Компановщик"/>
+                                <connections>
+                                    <action selector="Linker:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="Mm6-Ek-knd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqv-JR-J1B">
+                                <rect key="frame" x="376" y="463" width="38" height="30"/>
+                                <state key="normal" title="Мост"/>
+                                <connections>
+                                    <action selector="Bridge:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="4Df-dk-HO0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhF-fE-brH">
+                                <rect key="frame" x="290" y="493" width="124" height="30"/>
+                                <state key="normal" title="Приспособленец"/>
+                                <connections>
+                                    <action selector="Flyweight:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="4Tr-TJ-xIV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7V-bo-Q5u">
+                                <rect key="frame" x="368" y="523" width="46" height="30"/>
+                                <state key="normal" title="Фасад"/>
+                                <connections>
+                                    <action selector="Facade:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="tjO-8Q-fzN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wH-3O-6RS">
+                                <rect key="frame" x="0.0" y="778" width="414" height="30"/>
+                                <state key="normal" title="Отступить в терминале"/>
+                                <connections>
+                                    <action selector="TerminalCleaning:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="gIw-rP-D6m"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -52,13 +101,30 @@
                             <constraint firstItem="lht-lt-cDt" firstAttribute="leading" secondItem="vnj-Rj-yCO" secondAttribute="leading" id="8I4-yW-EPK"/>
                             <constraint firstItem="7sC-sM-odb" firstAttribute="top" secondItem="vnj-Rj-yCO" secondAttribute="bottom" id="CEE-kH-8rB"/>
                             <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="z7e-jG-Uef" secondAttribute="trailing" id="CQG-EJ-6Rg"/>
+                            <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="Bqv-JR-J1B" secondAttribute="trailing" id="CUO-Te-kbG"/>
+                            <constraint firstItem="lWM-6W-xoC" firstAttribute="top" secondItem="7sC-sM-odb" secondAttribute="bottom" id="EAv-Qm-6WX"/>
+                            <constraint firstItem="lWM-6W-xoC" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="FW9-xA-Gi6"/>
+                            <constraint firstItem="Ftd-35-TeC" firstAttribute="top" secondItem="lWM-6W-xoC" secondAttribute="bottom" id="LqE-GF-dQ5"/>
+                            <constraint firstItem="Bcf-p5-pAu" firstAttribute="bottom" secondItem="4wH-3O-6RS" secondAttribute="bottom" id="RdK-Uc-1In"/>
+                            <constraint firstItem="4wH-3O-6RS" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="SFw-3t-yiZ"/>
+                            <constraint firstItem="Ftd-35-TeC" firstAttribute="leading" secondItem="WtY-Y9-0W4" secondAttribute="leading" id="Se9-rm-1KT"/>
                             <constraint firstItem="lht-lt-cDt" firstAttribute="top" secondItem="z7e-jG-Uef" secondAttribute="bottom" constant="200" id="WGT-mv-eiM"/>
                             <constraint firstItem="lht-lt-cDt" firstAttribute="trailing" secondItem="vnj-Rj-yCO" secondAttribute="trailing" id="XDk-Mv-m5d"/>
                             <constraint firstItem="7sC-sM-odb" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="ZfI-60-eC9"/>
                             <constraint firstItem="lht-lt-cDt" firstAttribute="leading" secondItem="z7e-jG-Uef" secondAttribute="leading" id="Zwa-2l-TSM"/>
                             <constraint firstItem="z7e-jG-Uef" firstAttribute="top" secondItem="Bcf-p5-pAu" secondAttribute="top" id="aY4-RL-8dV"/>
+                            <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="hhF-fE-brH" secondAttribute="trailing" id="cuq-iG-k0W"/>
+                            <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="4wH-3O-6RS" secondAttribute="trailing" id="df3-8F-XfH"/>
+                            <constraint firstItem="Bqv-JR-J1B" firstAttribute="top" secondItem="vnj-Rj-yCO" secondAttribute="bottom" id="hs2-31-7ob"/>
+                            <constraint firstItem="hhF-fE-brH" firstAttribute="top" secondItem="Bqv-JR-J1B" secondAttribute="bottom" id="ica-Zb-Cxg"/>
                             <constraint firstItem="lht-lt-cDt" firstAttribute="trailing" secondItem="z7e-jG-Uef" secondAttribute="trailing" id="nJV-UW-1ts"/>
+                            <constraint firstItem="J7V-bo-Q5u" firstAttribute="top" secondItem="hhF-fE-brH" secondAttribute="bottom" id="qGy-Vc-5bp"/>
+                            <constraint firstItem="J7V-bo-Q5u" firstAttribute="top" secondItem="hhF-fE-brH" secondAttribute="bottom" id="t5i-67-dxw"/>
+                            <constraint firstItem="lRe-ka-cO1" firstAttribute="top" secondItem="Ftd-35-TeC" secondAttribute="bottom" id="uUo-zk-cEl"/>
                             <constraint firstItem="vnj-Rj-yCO" firstAttribute="top" secondItem="lht-lt-cDt" secondAttribute="bottom" constant="200" id="vH2-JR-QGr"/>
+                            <constraint firstItem="hhF-fE-brH" firstAttribute="top" secondItem="Bqv-JR-J1B" secondAttribute="bottom" id="wCc-yG-s1f"/>
+                            <constraint firstItem="lRe-ka-cO1" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="x2B-rt-XkI"/>
+                            <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="J7V-bo-Q5u" secondAttribute="trailing" id="yuC-3j-w4t"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="b2g-XP-8uf"/>
