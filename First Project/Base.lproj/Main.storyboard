@@ -93,6 +93,13 @@
                                     <action selector="TerminalCleaning:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="gIw-rP-D6m"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNv-Fn-xfW">
+                                <rect key="frame" x="0.0" y="242" width="161" height="30"/>
+                                <state key="normal" title="Абстрактная фабрика "/>
+                                <connections>
+                                    <action selector="AbstractFactory:" destination="wCa-Tq-B2V" eventType="touchUpInside" id="iS2-DU-fqL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcf-p5-pAu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -104,6 +111,7 @@
                             <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="Bqv-JR-J1B" secondAttribute="trailing" id="CUO-Te-kbG"/>
                             <constraint firstItem="lWM-6W-xoC" firstAttribute="top" secondItem="7sC-sM-odb" secondAttribute="bottom" id="EAv-Qm-6WX"/>
                             <constraint firstItem="lWM-6W-xoC" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="FW9-xA-Gi6"/>
+                            <constraint firstItem="gNv-Fn-xfW" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="JX9-pS-pVO"/>
                             <constraint firstItem="Ftd-35-TeC" firstAttribute="top" secondItem="lWM-6W-xoC" secondAttribute="bottom" id="LqE-GF-dQ5"/>
                             <constraint firstItem="Bcf-p5-pAu" firstAttribute="bottom" secondItem="4wH-3O-6RS" secondAttribute="bottom" id="RdK-Uc-1In"/>
                             <constraint firstItem="4wH-3O-6RS" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="SFw-3t-yiZ"/>
@@ -111,6 +119,7 @@
                             <constraint firstItem="lht-lt-cDt" firstAttribute="top" secondItem="z7e-jG-Uef" secondAttribute="bottom" constant="200" id="WGT-mv-eiM"/>
                             <constraint firstItem="lht-lt-cDt" firstAttribute="trailing" secondItem="vnj-Rj-yCO" secondAttribute="trailing" id="XDk-Mv-m5d"/>
                             <constraint firstItem="7sC-sM-odb" firstAttribute="leading" secondItem="Bcf-p5-pAu" secondAttribute="leading" id="ZfI-60-eC9"/>
+                            <constraint firstItem="gNv-Fn-xfW" firstAttribute="top" secondItem="lht-lt-cDt" secondAttribute="bottom" id="Zoe-PQ-0Wa"/>
                             <constraint firstItem="lht-lt-cDt" firstAttribute="leading" secondItem="z7e-jG-Uef" secondAttribute="leading" id="Zwa-2l-TSM"/>
                             <constraint firstItem="z7e-jG-Uef" firstAttribute="top" secondItem="Bcf-p5-pAu" secondAttribute="top" id="aY4-RL-8dV"/>
                             <constraint firstItem="Bcf-p5-pAu" firstAttribute="trailing" secondItem="hhF-fE-brH" secondAttribute="trailing" id="cuq-iG-k0W"/>

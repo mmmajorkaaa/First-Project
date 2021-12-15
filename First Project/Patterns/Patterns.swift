@@ -86,5 +86,19 @@ class Patterns: UIViewController {
         // ЗАПУСК С ФАСАДОМ
         simpleInterfase.StartMashine() // - запрос на запуск машины с проверками и сложной системой спрятан в 1ой строчке
     }
+    @IBAction func AbstractFactory(_ sender: Any) {
+        
+        // хоть классы и разных типов но обьеденены (Абстрактной фабрикой)
+        chair = KitchenFactory().createChair()
+        sofa = KitchenFactory().createSofa()
+        table = KitchenFactory().createTable()
+        
+        chair = BedroomFactory().createChair()
+        sofa = BedroomFactory().createSofa()
+        table = BedroomFactory().createTable()
+    }
+    
+    
+    
 }
 

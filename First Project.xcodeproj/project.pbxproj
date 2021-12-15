@@ -17,6 +17,7 @@
 		E5A424E1276785B000CA7D77 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A424E0276785B000CA7D77 /* Bridge.swift */; };
 		E5A424E32767A29100CA7D77 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A424E22767A29100CA7D77 /* Flyweight.swift */; };
 		E5A424E52768A7AD00CA7D77 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A424E42768A7AD00CA7D77 /* Facade.swift */; };
+		E5A424E82769D84000CA7D77 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A424E72769D84000CA7D77 /* AbstractFactory.swift */; };
 		E5C19DFA275FAB930070BB26 /* Read me (Vokal).swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C19DF9275FAB930070BB26 /* Read me (Vokal).swift */; };
 		E5C19DFC275FACF80070BB26 /* Red me (Notebook).swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C19DFB275FACF80070BB26 /* Red me (Notebook).swift */; };
 		E5C19DFE275FAE3C0070BB26 /*  Read me (Card game).swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C19DFD275FAE3C0070BB26 /*  Read me (Card game).swift */; };
@@ -61,6 +62,7 @@
 		E5A424E0276785B000CA7D77 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		E5A424E22767A29100CA7D77 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
 		E5A424E42768A7AD00CA7D77 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		E5A424E72769D84000CA7D77 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		E5C19DF9275FAB930070BB26 /* Read me (Vokal).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Read me (Vokal).swift"; sourceTree = "<group>"; };
 		E5C19DFB275FACF80070BB26 /* Red me (Notebook).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Red me (Notebook).swift"; sourceTree = "<group>"; };
 		E5C19DFD275FAE3C0070BB26 /*  Read me (Card game).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Read me (Card game).swift"; sourceTree = "<group>"; };
@@ -160,6 +162,14 @@
 			path = Vokal;
 			sourceTree = "<group>";
 		};
+		E5A424E62769D81000CA7D77 /* Пораждающие паттерны */ = {
+			isa = PBXGroup;
+			children = (
+				E5A424E72769D84000CA7D77 /* AbstractFactory.swift */,
+			);
+			path = "Пораждающие паттерны";
+			sourceTree = "<group>";
+		};
 		E5D63BB7275B4A57007C5027 = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				E5F0141C276385420091298C /* Patterns.swift */,
+				E5A424E62769D81000CA7D77 /* Пораждающие паттерны */,
 				E5F01417276384A00091298C /* Структурные паттерны */,
 			);
 			path = Patterns;
@@ -382,6 +393,7 @@
 				E5C19DFA275FAB930070BB26 /* Read me (Vokal).swift in Sources */,
 				E5A0F071275BA4E70093C49D /* MusicainNotebookViewController.swift in Sources */,
 				E55E748E2761298800ADF80A /* File.swift in Sources */,
+				E5A424E82769D84000CA7D77 /* AbstractFactory.swift in Sources */,
 				E5D63BC6275B4A57007C5027 /* SceneDelegate.swift in Sources */,
 				E5A424E32767A29100CA7D77 /* Flyweight.swift in Sources */,
 				E5A424DF27673AAF00CA7D77 /* Linker.swift in Sources */,
